@@ -1,0 +1,97 @@
+
+main {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #505962;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  padding-top: 3px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+  color: pink;
+}
+
+/* landing */
+
+#home {
+  background-image: url('img/computers.jpg');
+  background-position: fixed;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38vh;
+  /* z-index: 1; */
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 50px black;
+
+}
+
+h1.caption {
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+h2.caption {
+  top: 50vh;
+}
+
+.home-inner .btn {
+  position: absolute;
+  top: 60vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-lg {
+  border-radius: 0;
+  border-width: medium;
+  font-size: 16px;
+}
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
